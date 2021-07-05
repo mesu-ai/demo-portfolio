@@ -1,0 +1,94 @@
+
+body{
+
+    margin: 0;
+
+}
+#h1{
+    font-size: 40px;
+
+
+}
+
+
+
+.flexiable-nav{
+background-color: rgb(240, 238, 235);
+padding: 10px;
+margin: 15px;
+
+
+display: flex;
+flex-flow: wrap row;
+justify-content: flex-end;
+
+
+}
+
+.flexiable-nav > div > a{
+    text-decoration: none;
+    color:tomato;
+    padding: 10px;
+    margin: 10px;
+    
+
+}
+
+.flexiable-nav > div > a:hover{
+    color: white;
+    background-color: black;
+    
+    
+    
+}
+
+
+
+.flex-container{
+    display: flex;
+    margin-left: 10%;
+    
+
+
+
+}
+.half-width{
+    width: 50%;
+    height: 400px;
+    margin: 10px;
+    
+    
+
+}
+
+.left-width{
+    margin-top: 4%;
+    
+}
+.half-width> img{
+    width: 60%;
+    margin-top: 25px;
+   
+}
+.center{
+    
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+}
+
+#orange{
+    color: orangered;
+}
+.button1{
+    text-decoration: none;
+    font-weight: 700;
+    background-image: linear-gradient(rgb(247, 164, 11), red);
+    padding: 10px 30px;
+    color: white;
+    border-radius: 10px;
+    
+}
+
+
+
