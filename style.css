@@ -55,10 +55,14 @@ justify-content: flex-end;
 .half-width{
     width: 50%;
     height: 400px;
-    margin: 10px;
+    
     
     
 
+}
+
+.right-width{
+    margin-right: 10px;
 }
 
 .left-width{
